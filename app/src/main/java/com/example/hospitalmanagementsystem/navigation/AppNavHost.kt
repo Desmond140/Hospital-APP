@@ -9,6 +9,7 @@ import com.example.hospitalmanagementsystem.ui.theme.screens.dashboard.Dashboard
 import com.example.hospitalmanagementsystem.ui.theme.screens.login.LoginScreen
 import com.example.hospitalmanagementsystem.ui.theme.screens.patient.AddPatientScreen
 import com.example.hospitalmanagementsystem.ui.theme.screens.patient.PatientListScreen
+import com.example.hospitalmanagementsystem.ui.theme.screens.patient.UpdatePatientScreen
 import com.example.hospitalmanagementsystem.ui.theme.screens.register.RegisterScreen
 
 @Composable
@@ -20,6 +21,7 @@ fun AppNavHost(navController: NavHostController = rememberNavController(),
         composable(ROUTE_DASHBOARD) { DashboardScreen(navController)}
         composable ( ROUTE_ADD_PATIENT ) { AddPatientScreen(navController) }
         composable ( ROUTE_PATIENT_LIST ) { PatientListScreen(navController) }
+        composable ( ROUTE_UPDATE_PATIENT ) { UpdatePatientScreen(navController) }
     }
 
 }

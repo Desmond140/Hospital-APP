@@ -175,8 +175,8 @@ fun DashboardScreen(navController: NavController){
                         tint = Color(0XFF004D40), modifier = Modifier.size(40.dp))
                     Spacer(modifier = Modifier.width(16.dp))
                     Column {
-                        Text("Add Patient", fontSize = 18.sp,color = Color.Black)
-                        Text("Register new patient details", fontSize = 14.sp, color = Color.Gray)
+                        Text("View Patient", fontSize = 18.sp,color = Color.Black)
+                        Text("View patient details", fontSize = 14.sp, color = Color.Gray)
                     }
                 }
             }
